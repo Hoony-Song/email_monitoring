@@ -51,24 +51,6 @@ python --version
 # 출력에 'kor'가 포함되어야 함
 ```
 
-#### macOS
-```bash
-# Homebrew로 설치
-brew install tesseract tesseract-lang
-
-# 설치 확인
-tesseract --list-langs
-```
-
-#### Ubuntu/Debian
-```bash
-# APT로 설치
-sudo apt update
-sudo apt install tesseract-ocr tesseract-ocr-kor
-
-# 설치 확인
-tesseract --list-langs
-```
 
 ## 🚀 설치 및 실행
 
