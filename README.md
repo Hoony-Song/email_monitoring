@@ -4,7 +4,6 @@ Python + Tesseract OCR을 활용한 실시간 메일 모니터링 및 슬랙 알
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Tesseract](https://img.shields.io/badge/Tesseract-OCR-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 🎯 프로젝트 개요
 
