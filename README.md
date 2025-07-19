@@ -1,35 +1,18 @@
-# 해당 코드는 Claude AI 를 통해 바이브 코딩으로 작성한 프로그램 입니다 
+🎯 프로젝트 개요
+메일 시스템의 자동 알림 기능이 제한적인 환경에서 화면 캡처 + OCR 기술을 활용하여 실시간 메일 모니터링 및 슬랙 알림을 제공하는 프로그램입니다.
+핵심 기능
 
-## 🚀 실행 방법
+📧 실시간 메일 감지: 화면 변화 기반 자동 감지
+🔍 키워드 필터링: 특정 키워드 포함 메일만 알림
+📢 슬랙 연동: 즉시 알림 전송
+🎯 중복 방지: 시간 기반 중복 알림 차단
+🔄 자동 새로고침: 세션 유지
 
-### 개발 환경
-```bash
-# 의존성 설치
-pip install -r requirements.txt
+🛠️ 기술 스택
 
-# 아래 링크에서 Tesseract-OCR 설치 
-https://github.com/tesseract-ocr/tesseract
-
-#  아래 링크에서 한글 언어팩 다운로드후 C:\Program Files\Tesseract-OCR\tessdata\kor.traineddata 경로에 배치 
-https://github.com/tesseract-ocr/tessdata/raw/main/kor.traineddata
-
-# 프로그램 실행
-python main.py
-```
-
-### 패키지 설치
-```bash
-# 개발 모드 패키지 설치
-pip install -e .
-
-# 명령어로 실행
-email-monitor
-```
-
-### EXE 빌드
-```bash
-# PyInstaller로 빌드
-pyinstaller --onefile --noconsole --name="메일모니터링" main.py
-```
-
-
+Python 3.8+ - 메인 개발 언어
+Tesseract OCR - 이미지 텍스트 추출
+OpenCV - 이미지 처리 및 유사도 비교
+tkinter - GUI 인터페이스
+PIL/Pillow - 화면 캡처
+Slack Webhook - 알림 전송
