@@ -1,0 +1,6 @@
+pillow
+opencv-python
+pytesseract
+pyautogui
+requests
+numpy
