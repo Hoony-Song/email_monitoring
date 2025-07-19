@@ -26,7 +26,14 @@ Python + Tesseract OCR을 활용한 실시간 메일 모니터링 및 슬랙 알
 - **Slack Webhook** - 알림 전송
 
 ## 모니터링 영역 지정 방법 
-![프로그램 스크린샷](https://www.notion.so/newverka/email_monitoring-2354c740344480859506eac792e26072?source=copy_link#2354c740344480549ae6c0d2e0457e38)
+![프로그램 스크린샷](./images/SCR-20250719-qsrn.png)
+
+### UI에서 영역 선택
+
+영역선택을 지정 할 때는 아래 이미지 처럼 
+메일 스택의 일부분인 송신자와 제목 영역과 수신 시간영역을 지점 해야 한다
+![프로그램 스크린샷](./images/image (1).png)
+
 
 ## 📋 사전 요구사항
 
